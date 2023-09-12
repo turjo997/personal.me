@@ -247,7 +247,7 @@ button:active {
 
 .custom-card {
   box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
-  height: 350px;
+  height: 370px;
   /* Change the shadow color and strength as needed */
 }
 
@@ -285,4 +285,12 @@ button:active {
 
 .footer span {
   color: brown;
+}
+
+@media (max-width: 575.98px) {
+  .custom-card {
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
+    height: 400px;
+  }
+
 }
